@@ -20,7 +20,6 @@ Prime::Prime():
 	s_proc		(0)											// ふるいにかけた数
 {
 	eratosthenes_sieve = new BitSeries(MAX_IDX, 0xff);
-	sieve_size = eratosthenes_sieve->getSize();
 }
 
 Prime::Prime(unsigned int max_num):
