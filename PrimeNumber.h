@@ -59,7 +59,6 @@ private:
 	const unsigned int MAX_END;			// 最大素数の平方根
 
 	BitSeries *eratosthenes_sieve;		// 3,5,7,9...と続く数列のビット列
-	unsigned int sieve_size;			// ふるいのサイズ
 	unsigned int s_proc;				// ふるいにかけた数
 
 	/*-------------------------------------------
